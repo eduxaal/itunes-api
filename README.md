@@ -1,5 +1,5 @@
 # iTunes-API
-Songs browser using iTunes API   
+Song browser using iTunes API   
 Javascript, HTML and CSS.
 
 Preview:

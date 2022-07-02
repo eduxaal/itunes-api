@@ -1,0 +1,61 @@
+<!DOCTYPE HTML>
+    <head>
+        <!---Title-->
+        <title> iTunes Search API </title>
+        <!--javascript-->
+        <script src="js/main.js" type="module"></script>
+        <!--stylesheets-->
+        <link href="css/style.css" rel="stylesheet"/>
+        <link href="css/icons.css" rel="stylesheet"/>
+        <link href="css/fontawesome/fontawesome.css" rel="stylesheet"/>
+        <link href="css/fontawesome/solid.css" rel="stylesheet"/>
+        <link rel="icon" href="icons/favicon.png" type="image/x-icon">
+        <!--fontawesome-->
+        <script src="https://kit.fontawesome.com/40e1376d5d.js" crossorigin="anonymous"></script>
+        <!--metadata-->
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+        <meta charset="utf-8"/>
+    </head>
+    <body>
+        <header>
+            <div id="header-left"> 
+                <div id="header-menu"><i class="fas icon-big icon-light icon-clickable fa-bars"></i></div>
+                <div id="header-logo"><img src="icons/logo.png"/></div>
+            </div>
+            <div id="header-right"> 
+                <div id="user-photo"><img src="images/perfil.jpg" /></div>
+                <div class="header-icon"><i class="fas icon-big icon-light icon-clickable fa-sign-out-alt"></i></div>
+            </div>
+        </header>
+        <!-- starts container -->
+        <div id="container">
+            <!-- search bar -->
+                <div id="search">
+                    <input type="text" id="searchTerm" placeholder="search..."/>
+                    <button type="submit" id="search-btn"><i class="fas icon-tiny icon-light icon-clickable fa-magnifying-glass"></i></button>
+                    <button type="submit" id="reload-btn" onclick="location.reload()"><i class="fas icon-tiny icon-light icon-clickable fa-arrows-rotate"></i></button>
+                </div>
+            <!-- content container-->
+            <div id="content">
+                <template id="template-track">
+                    <div id="track">
+                        <img id="image" src="images/thumbnail.jpg">
+                        <div id="track-info">
+                            <label id="name"></label>
+                            <label id="album"></label>
+                            <label id="artist"></label>
+                        </div>
+                        <div id="track-price">
+                            <label id="trackPrice"></label>
+                        </div>
+                    </div>
+                </template>
+            </div>
+        </div>
+        <footer id="nav-footer">
+            <div id="nav-home"><i class="fas icon-big icon-light icon-clickable fa-home"></i></div>
+            <div class="nav-user"><i class="fas icon-big icon-light icon-clickable fa-music"></i></div>
+            <div class="nav-product"><i class="fas icon-big icon-light icon-clickable fa-sliders"></i></div>
+        </footer>
+    </body>
+</html>

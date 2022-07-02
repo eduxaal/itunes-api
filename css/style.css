@@ -1,0 +1,148 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+body{
+    margin: 0px;
+    background-color: #F1F1F1;
+}
+/* Header */
+header {
+    position: relative;
+    float: left;
+    width: 100%;
+    height: 60px;
+    background: #171d20;
+}
+#header-left, #header-right {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+#header-left {
+    float: left;
+}
+#header-menu, #header-logo {
+    position: relative;
+    float: left;
+    margin-left: 15px;
+}
+#header-logo {
+    height: 25px;
+}
+#header-logo img {
+    height: 100%;
+}
+#header-right {
+    float: right;
+}
+#user-photo, .header-icon {
+    position: relative;
+    float: right;
+    margin: 10px;
+}
+#user-photo {
+    height: 36px;
+}
+#user-photo img {
+    height: 100%;
+    border-radius: 10px;
+}
+/*--------- container ---------*/
+#container {
+    position: relative;
+    float: left;
+    width: 100%;
+}
+/*----------- search ----------*/
+#search{
+    position: relative;
+    float: left;
+    display: flex;
+    width: 100%;
+}
+#searchTerm {
+    width: 60%;
+    margin: 10px 0 10px 10px;
+    padding-left: 15px;
+    font-size: 12pt;
+    color: #333;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    box-sizing: border-box;
+    box-shadow: 0 8px 12px 0 #615e5e33, 0 6px 20px 0 #776f6f30;
+}
+#search-btn, #reload-btn {
+    width: 20%;
+    background-color: #435a6b;
+    color: white;
+    padding: 14px 20px;
+    margin: 10px 0 10px 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    box-shadow: 0 8px 12px 0 #615e5e33, 0 6px 20px 0 #776f6f30;
+}  
+#reload-btn{
+    margin: 10px;
+}
+#search-btn:hover,  #reload-btn:hover{
+    background-color: #36434d;  
+}
+/*-------- content --------*/
+#template-track{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+#track{
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+#image, #track-info{
+    margin: 10px;
+}
+#image{
+    width: 20%;
+    height: auto;
+}
+#track-info{
+    position: relative;
+    float: left;
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+}
+#track-info, label{
+    font-size: 12pt;
+    color: #333;
+}
+#track-price{
+    position: relative;
+    width: 40%;
+    max-width: 100%;
+}
+#trackPrice{
+    float: right;
+    margin-right: 10px;
+    font-size: 16pt;
+    color: #333;
+}
+/*-------- nav --------*/
+#nav-footer {
+    position: fixed; 
+    bottom: 0; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 60px;
+    background: #171d20;
+}
+
+#nav-home, .nav-user, .nav-product {
+    margin: 0 20px 0 20px;
+}

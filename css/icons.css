@@ -1,0 +1,38 @@
+/* Size */
+.icon-big {
+    font-size: 32px;
+}
+
+.icon-medium {
+    font-size: 24px;
+}
+
+.icon-small {
+    font-size: 20px;
+}
+
+.icon-tiny {
+    font-size: 16px;
+}
+
+/* Color */
+.icon-light {
+    color: #DDD;
+}
+
+.icon-light:hover {
+    color: #FFF;
+}
+
+.icon-dark {
+    color: #555;
+}
+
+.icon-dark {
+    color: #333;
+}
+
+/* Others */
+.icon-clickable {
+    cursor: pointer;
+}
